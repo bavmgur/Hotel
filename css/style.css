@@ -1,0 +1,220 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Noto Sans', sans-serif; }
+
+.header__upper {
+  height: 6rem;
+  background-color: #000;
+  padding: 0 20.7rem;
+  color: #fff;
+  display: flex; }
+
+.header__oficial {
+  display: flex;
+  align-items: center;
+  margin-right: 1.5rem;
+  flex: 1;
+  justify-content: flex-end;
+  padding-right: 1.5rem; }
+
+.header__title {
+  font-weight: 300;
+  font-size: 1.4rem; }
+
+.header__options, .header__suboptions {
+  list-style: none; }
+
+.header__options {
+  display: flex;
+  align-items: center; }
+
+.header__suboptions {
+  display: none; }
+
+.header__option-item {
+  display: inline-block;
+  border-left: 0.1rem solid #fff; }
+
+.header__option-link {
+  color: #fff;
+  font-size: 1.6rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 3rem; }
+
+.header__option-link--sub i {
+  font-size: 1.2rem;
+  margin-top: -1rem;
+  margin-left: .5rem;
+  transition: all .5s; }
+
+.header__option-link--sub:hover {
+  color: #af2148; }
+
+.header__lower {
+  padding: 1.5rem 5%;
+  display: flex;
+  justify-content: space-between; }
+
+.header__logo {
+  display: inline-block;
+  margin-top: -1.5rem; }
+
+.header__reservation {
+  background-color: #232323;
+  padding: 2rem;
+  position: absolute;
+  right: 6.7rem;
+  height: 8.5rem;
+  width: 14.5rem;
+  top: 0;
+  border-radius: 0 0 .7rem .7rem;
+  color: #fff;
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all .5s; }
+  .header__reservation span {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 1rem; }
+
+.header__reservation:hover {
+  background-color: #af2148; }
+
+.header__menu {
+  align-self: flex-start;
+  padding-top: 5rem; }
+
+.header__menu-link {
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  padding: 1rem 2rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-radius: .6rem;
+  transition: all .5s; }
+
+.header__menu-link:hover {
+  background-color: #af2148; }
+
+.header__menu-link:nth-child(2) {
+  background-color: #af2148; }
+
+.header__menu-link:not(:last-child) {
+  margin-right: 1.5rem; }
+
+.banner {
+  position: relative;
+  height: 50rem;
+  width: 100%;
+  z-index: -1;
+  background-image: url(http://ruartecontract.com/wp-content/uploads/2014/09/Best-Urban-Hotels-Wallpaper-@RuarteContract-hoteles-Four-Seasons-Moscow.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -27rem; }
+
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000;
+  color: #fff;
+  padding: 3rem 0;
+  font-size: 1.8rem; }
+  footer a {
+    text-decoration: none; }
+  footer ul {
+    list-style: none; }
+
+.mini-slider {
+  width: 60%;
+  padding: 2rem;
+  border-bottom: .1rem solid #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+
+.mini-slider > .slider-text > p {
+  font-size: 2.3rem; }
+
+.mini-slider > .slider-buttons {
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  width: 10rem;
+  border: 0.1rem solid #fff;
+  border-radius: .2rem;
+  margin-top: 3.5rem;
+  margin-bottom: -4.5rem; }
+
+.mini-slider > div > a {
+  display: block;
+  width: 100%;
+  padding: .5rem 0;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all .5s; }
+
+.mini-slider > div > a:hover {
+  background-color: #af2148;
+  transition: all .5s; }
+
+.logo {
+  padding: 3rem; }
+
+.links ul {
+  display: flex;
+  flex-direction: row; }
+
+.links ul li {
+  padding: 1rem 1.5rem; }
+
+.links ul li a {
+  color: #fff;
+  font-size: 1.6rem; }
+
+.language ul {
+  display: flex;
+  flex-direction: row; }
+
+.language ul li {
+  padding: 1rem 1.5rem; }
+
+.language ul li a {
+  color: #fff;
+  font-size: 1.6rem; }
+
+.reservation {
+  margin-top: -7rem;
+  margin-bottom: 20rem; }
+  .reservation__form {
+    max-width: 120rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: .5rem;
+    height: 11rem;
+    padding: 2rem 0;
+    margin: 0 auto;
+    box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, 0.3); }
