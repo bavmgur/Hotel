@@ -1,12 +1,10 @@
 @import './abstracts//mixins';
 @import './abstracts//variables';
-
 @import './base/base';
 @import './layout/header';
 @import './layout/banner';
 @import './layout/footer';
-
 @import './pages/hotel';
-
 @import './components/filter-destino';
 @import './components/form-reservation';
+@import './components/box-information';

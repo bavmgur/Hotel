@@ -293,3 +293,50 @@ footer {
     margin: 0 auto;
     margin-top: -7rem;
     box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, 0.3); }
+
+.hotels-information {
+  margin: 30px 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row; }
+  .hotels-information .hotel-img {
+    width: 50%; }
+    .hotels-information .hotel-img img {
+      width: 100%;
+      height: 100%; }
+  .hotels-information .hotel-information {
+    padding: 2rem;
+    width: 50%; }
+    .hotels-information .hotel-information .calification {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: row-reverse; }
+      .hotels-information .hotel-information .calification div {
+        text-align: center; }
+        .hotels-information .hotel-information .calification div h5 {
+          font-size: 50px;
+          color: #af2148; }
+        .hotels-information .hotel-information .calification div p {
+          font-size: 20px; }
+    .hotels-information .hotel-information .description {
+      margin-top: 20px; }
+      .hotels-information .hotel-information .description h2 {
+        max-width: 50%;
+        font-size: 30px; }
+      .hotels-information .hotel-information .description p {
+        font-size: 15px; }
+      .hotels-information .hotel-information .description a {
+        text-align: center;
+        max-width: 100px;
+        display: block;
+        color: #fff;
+        font-weight: bold;
+        margin-top: 30px;
+        border-radius: 4px;
+        background-color: #af2148;
+        font-size: 15px;
+        cursor: pointer;
+        padding: 1rem; }
+      .hotels-information .hotel-information .description a:hover {
+        opacity: .8; }
