@@ -11,7 +11,8 @@ html {
 body {
   box-sizing: border-box;
   font-family: 'Source Sans Pro', sans-serif;
-  font-family: 'Noto Sans', sans-serif; }
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #f1f1f1; }
 
 .header__upper {
   height: 6rem;
@@ -206,9 +207,82 @@ footer {
   color: #fff;
   font-size: 1.6rem; }
 
+.hotel {
+  padding: 10rem 7.5rem;
+  background-color: #fff;
+  text-align: center; }
+  .hotel__title {
+    font-size: 3.5rem;
+    font-weight: 300; }
+  .hotel__subtitle {
+    margin: 1.5rem 0 3rem;
+    font-size: 3.5rem; }
+  .hotel__paragraph {
+    font-size: 1.4rem;
+    font-weight: 300; }
+
+.filter {
+  margin: 7rem 0 9rem; }
+  .filter__container {
+    max-width: 120rem;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+    align-items: center; }
+  .filter__text {
+    width: 49.5%;
+    text-align: right; }
+    .filter__text span {
+      font-size: 2rem;
+      color: #af2148; }
+  .filter__select {
+    width: 49.5%;
+    position: relative; }
+  .filter__btn-select {
+    border: 0.1rem solid #af2148;
+    padding: 2rem;
+    border-radius: .5rem;
+    background-color: #fff;
+    color: #af2148;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-weight: 300;
+    cursor: pointer;
+    outline: none; }
+  .filter__btn-select:active + .filter__list {
+    max-height: 50rem;
+    visibility: visible; }
+  .filter__list {
+    overflow: hidden;
+    visibility: hidden;
+    transition: all .5s;
+    max-height: 0rem;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.176) 0px 0.6rem 1.2rem;
+    border-radius: .5rem .5rem 0 0;
+    z-index: 100; }
+    .filter__list a {
+      text-decoration: none;
+      padding: 2rem;
+      font-size: 1.6rem;
+      transition: all .5s;
+      color: #af2148;
+      font-weight: 700; }
+    .filter__list a:hover {
+      background-color: #f1f1f1; }
+
 .reservation {
-  margin-top: -7rem;
-  margin-bottom: 20rem; }
+  padding: 2rem;
+  background-color: #fff; }
   .reservation__form {
     max-width: 120rem;
     width: 100%;
@@ -217,4 +291,5 @@ footer {
     height: 11rem;
     padding: 2rem 0;
     margin: 0 auto;
+    margin-top: -7rem;
     box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, 0.3); }
